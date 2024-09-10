@@ -12,6 +12,7 @@ export default function Home() {
         <Link href="/blog">Go to blog Page</Link>
         <br />
         <Link href="/contact">Go to contact Page</Link>
+        <br />
         <Link href="/about">Go to about Page</Link>
         <br />
         <Link href="/services">Go to services Page</Link>
@@ -19,6 +20,7 @@ export default function Home() {
         <Link href="/blog">Go to blog Page</Link>
         <br />
         <Link href="/contact">Go to contact Page</Link>
+        <br />
         <Link href="/about">Go to about Page</Link>
         <br />
         <Link href="/services">Go to services Page</Link>
@@ -26,6 +28,7 @@ export default function Home() {
         <Link href="/blog">Go to blog Page</Link>
         <br />
         <Link href="/contact">Go to contact Page</Link>
+        <br />
     </main>
   );
 }
