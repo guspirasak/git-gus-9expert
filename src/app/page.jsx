@@ -4,26 +4,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
-      <main className="flex">
+    
+      <main className="container mx-auto">
         <Link href="/about">Go to about Page</Link>
         <br />
-        <Link href="/services">Go to services Page</Link>
-        <br />
-        <Link href="/blog">Go to blog Page</Link>
-        <br />
-        <Link href="/contact">Go to contact Page</Link>
-        <br />
-        <Link href="/about">Go to about Page</Link>
-        <br />
-        <Link href="/services">Go to services Page</Link>
-        <br />
-        <Link href="/blog">Go to blog Page</Link>
-        <br />
-        <Link href="/contact">Go to contact Page</Link>
-        <br />
-        <Link href="/about">Go to about Page</Link>
-        <br />
-        <Link href="/services">Go to services Page</Link>
+        <Link href="/map">Go to map Page</Link>
         <br />
         <Link href="/blog">Go to blog Page</Link>
         <br />
