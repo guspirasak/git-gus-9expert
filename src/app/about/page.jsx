@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "หลักสูตรฝึกอบรม / Training Course | 9Expert Training",
+  description: "The best website in the world",
+};
+
 function AboutPage() {
   return (
     <div className='container mx-auto'>
