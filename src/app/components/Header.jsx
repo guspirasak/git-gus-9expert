@@ -1,15 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Header extends Component {
-  render() {
-    return (
-        <div className='container mx-auto'>
-        <h3>Contact Page</h3>
-        <p>This is Contact page</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ex accusantium eius ad qui esse deleniti eligendi fugit aliquid dolorum incidunt consectetur molestiae, excepturi tempora aspernatur tenetur quod debitis similique?</p>
-      </div>
-    )
-  }
+function Header() {
+  return (
+    <div className='h-[300px] bg-blue-500 text-white text-center'>
+      <h1>Header</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero porro quaerat sit, architecto, vero repudiandae voluptates debitis laborum reiciendis nemo id explicabo autem assumenda quidem consequatur dolorum ut dolore et.</p>
+    </div>
+  )
 }
 
 export default Header

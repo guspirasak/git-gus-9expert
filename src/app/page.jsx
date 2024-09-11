@@ -6,14 +6,8 @@ export default function Home() {
   return (
     
       <main className="container mx-auto">
-        <Link href="/about">Go to about Page</Link>
-        <br />
-        <Link href="/map">Go to map Page</Link>
-        <br />
-        <Link href="/blog">Go to blog Page</Link>
-        <br />
-        <Link href="/contact">Go to contact Page</Link>
-        <br />
+        <h3>Home Page</h3>
+        <p>This is home page</p>
     </main>
   );
 }
